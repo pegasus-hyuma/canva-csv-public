@@ -1,0 +1,76 @@
+{
+  "purpose": "sns_affiliate_market_day_line_delivery_marker",
+  "repo": "pegasus-hyuma/SNS_Affiliate",
+  "as_of_date": "2026-07-24",
+  "generated_at_utc": "2026-07-24T09:13:18Z",
+  "delivery_status": "delivered",
+  "send_text_messages": false,
+  "message_type_sequence": [
+    "image",
+    "image"
+  ],
+  "image_universe_sequence": [
+    "prime",
+    "nikkei225"
+  ],
+  "image_message_count": 2,
+  "required_image_count": 2,
+  "line_status_code": 200,
+  "line_retry_payload_sha256": "42e965d65e3221a164c391cb15b42612e9772f2b0b8a8f9cfe7377eceb4c90d7",
+  "line_retry_key_scope": "market_day_image_only_v3",
+  "line_retry_key_enabled": true,
+  "line_retry_key_configured": true,
+  "line_retry_key_already_accepted": false,
+  "line_retry_key_as_of_date": "2026-07-24",
+  "line_retry_key_force_suffix_configured": false,
+  "line_retry_key_forced": false,
+  "push_attempted": true,
+  "preflight_ok": true,
+  "match_local_ok": true,
+  "all_image_sha256_match": true,
+  "local_image_hashes_distinct": true,
+  "remote_image_hashes_distinct": true,
+  "image_match_count": 2,
+  "image_results": [
+    {
+      "label": "primary",
+      "local_image_path": "out/daily_pack/latest/prime/slides/tse_prime_summary.png",
+      "local_image_size": 496966,
+      "remote_image_size": 496966,
+      "sha256_match": true,
+      "local_sha256": "5802e4350998fce97c372001054a0cd9544be183c792bcfd9b80b7a9691b1250",
+      "remote_sha256": "5802e4350998fce97c372001054a0cd9544be183c792bcfd9b80b7a9691b1250",
+      "match_attempts_used": 1
+    },
+    {
+      "label": "secondary",
+      "local_image_path": "out/daily_pack/latest/nikkei225/slides/tse_prime_summary.png",
+      "local_image_size": 444180,
+      "remote_image_size": 444180,
+      "sha256_match": true,
+      "local_sha256": "923dcb6494b68a3279367a84ead1572aab0f4826b74c6bd3907f245bf9a4e36c",
+      "remote_sha256": "923dcb6494b68a3279367a84ead1572aab0f4826b74c6bd3907f245bf9a4e36c",
+      "match_attempts_used": 1
+    }
+  ],
+  "public_repo_images": [
+    {
+      "label": "prime",
+      "sha256": "5802e4350998fce97c372001054a0cd9544be183c792bcfd9b80b7a9691b1250",
+      "cache_busted": true,
+      "published_remote_paths": [
+        "SNS_Affiliate/daily_images/latest/prime/slides/tse_prime_summary.png",
+        "SNS_Affiliate/daily_images/archive/2026-07-24/prime/slides/tse_prime_summary.png"
+      ]
+    },
+    {
+      "label": "nikkei225",
+      "sha256": "923dcb6494b68a3279367a84ead1572aab0f4826b74c6bd3907f245bf9a4e36c",
+      "cache_busted": true,
+      "published_remote_paths": [
+        "SNS_Affiliate/daily_images/latest/nikkei225/slides/tse_prime_summary.png",
+        "SNS_Affiliate/daily_images/archive/2026-07-24/nikkei225/slides/tse_prime_summary.png"
+      ]
+    }
+  ]
+}
